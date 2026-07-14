@@ -1,5 +1,6 @@
 import styles from "./Ingredients.module.css";
-import ingredients from "../../assets/ingredients.png";
+
+import flavour from "../../assets/flavour.png";
 
 export const Ingredients = () => {
   return (
@@ -7,7 +8,7 @@ export const Ingredients = () => {
 
       <div className={styles.card}>
 
-        <img src={ingredients} alt="Ingredients"/>
+        <img src={flavour} alt="Ingredients"/>
         <div>
           <h2>| Our Foundational Ingredients</h2>
           <p>For over a decade. Ben and David have shared a visoin of a healthier, easier future. Their <br />
