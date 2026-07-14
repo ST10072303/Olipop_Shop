@@ -1,0 +1,44 @@
+/*navigation styling*/
+.navbar {
+  width: 100%;
+  background: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000; /*stack navbar on top on every component*/
+}
+/*nav link position*/
+.container, .navLinks {
+  display: flex; /*arrange elements inside acontainer*/
+  align-items: center; 
+}
+/*nav container styling*/
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 10px 6%;
+  justify-content: space-between;
+}
+/*logo size*/
+.logo {
+  width: 55px;
+}
+/*spaces between links*/
+.navLinks {
+  gap: 35px;
+}
+/*nat text styling*/
+.navLinks a {
+  text-decoration: none;
+  color: #17382b;
+  font-weight: 500;
+}
+/*button styling*/
+.subscribeBtn {
+  background: #17382b;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+

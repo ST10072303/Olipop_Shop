@@ -1,0 +1,26 @@
+/*top, left&right padding space*/
+.products{
+    padding:60px 8%;
+    text-align:center;
+}
+/*h2 styles*/
+.products h2{
+    margin-bottom: 0;
+    font-size:50px;
+    color:#17382B;
+}
+/*paragraph styles*/
+.products p{
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-size:20px;
+    color:#17382B;
+}
+/*grid styling*/
+.grid{
+    max-width:1200px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(230px,1fr));/*grid column size*/
+    gap:25px;
+}

@@ -1,0 +1,63 @@
+/*section styling with grid columns*/
+.promo {
+    background: #F8F5D8;
+    padding: 40px 8%;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;/*column sizes*/
+    align-items: center;
+    gap: 40px;
+    position: relative;/*stretchs the columns*/
+    margin-top: 50px; 
+    margin-bottom: 50px; 
+}
+
+/* Columns styling */
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 24px; 
+    z-index: 2;/*staking level*/
+}
+
+/* Text and Icon Wrap */
+.textGroup {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+/*texts font & color*/
+.textGroup p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+}
+
+/* Icon styling and position */
+.icon {
+    position: absolute;
+    left: 0;
+    width: 40px; 
+    height: 40px;
+}
+
+/* Center Image Container */
+.imageContainer {
+    position: relative;
+    width: 250px; 
+    height: 150px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* The Overlapping Image size and position */
+.promoImg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Perfectly centers the image */
+    height: 270px; /* Taller than the container section */
+    width: auto; 
+}

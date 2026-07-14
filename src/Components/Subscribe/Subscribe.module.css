@@ -1,0 +1,22 @@
+/*section size, color & positioning*/
+.subscribe {
+    background:#F7D5E5;
+    text-align: left;
+    padding: 50px 8%; /*space between content and section box*/
+    max-width: 1000px; 
+    margin: 40px auto 0 auto;/*spaces between page*/
+}
+/*h2 size & color*/
+.subscribe h2 {
+    font-size: 40px;
+    color: #17382B;
+    margin-bottom: 20px;
+}
+/*button color, position*/
+.subscribe button{
+    padding:15px 35px;
+    border:none;
+    border-radius:30px;
+    background:#17382B;
+    color:white;
+}
