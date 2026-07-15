@@ -10,7 +10,6 @@
     margin-top: 50px; 
     margin-bottom: 50px; 
 }
-
 /* Columns styling */
 .column {
     display: flex;
@@ -18,7 +17,6 @@
     gap: 24px; 
     z-index: 2;/*staking level*/
 }
-
 /* Text and Icon Wrap */
 .textGroup {
     position: relative;
@@ -33,7 +31,6 @@
     font-weight: 500;
     color: black;
 }
-
 /* Icon styling and position */
 .icon {
     position: absolute;
@@ -41,7 +38,6 @@
     width: 40px; 
     height: 40px;
 }
-
 /* Center Image Container */
 .imageContainer {
     position: relative;
@@ -50,8 +46,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
-
 /* The Overlapping Image size and position */
 .promoImg {
     position: absolute;
@@ -60,4 +56,63 @@
     transform: translate(-50%, -50%); /* Perfectly centers the image */
     height: 270px; /* Taller than the container section */
     width: auto; 
+    box-shadow: 0px 0px 24px -1px rgba(0, 0, 0, 0.48);
+    border-radius: 8px;
+}
+ /*Responsive for Mobile*/
+@media (max-width: 768px) {
+    .promo {
+        /* Switch from 3 columns to 1 single stacked column */
+        grid-template-columns: 1fr; 
+        gap: 30px;
+        padding: 40px 5%;
+        text-align: center;
+    }
+
+    /*image container remain in middle*/
+    .imageContainer {
+        order: 2; /* promo image stays in the middle */
+        width: 100%;
+        height: auto;
+        min-height: 220px;
+    }
+
+    .column:nth-child(1) {
+        order: 1; /* Left column move to the top */
+    }
+
+    .column:nth-child(3) {
+        order: 3; /* Right column move to the bottom */
+    }
+
+    /*center align columns*/
+    .column {
+        align-items: center;
+        gap: 20px;
+    }
+
+    /* Adjust text groups to align  with icons above text */
+    .textGroup {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-left: 0; /* remove padding */
+        gap: 10px;
+    }
+
+    /* place icons from absolute position to above the text */
+    .icon {
+        position: static; 
+        margin-bottom: 5px;
+    }
+
+    /* reduce promo image size */
+    .promoImg {
+        height: 220px; 
+        position: relative; /* remove absolute position overlap */
+        top: 0;
+        left: 0;
+        transform: none; 
+    }
 }

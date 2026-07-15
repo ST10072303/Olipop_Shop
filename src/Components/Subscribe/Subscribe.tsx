@@ -1,3 +1,4 @@
+import { Button } from "../Button/Button";
 import styles from "./Subscribe.module.css";
 
 export const Subscribe = () => {
@@ -8,7 +9,7 @@ export const Subscribe = () => {
       <p>Never run out of your favourite flavors when you join our<br />
       fam. Subscribe and save on every order-- your wallet<br/>
       {"{"}and digestion{"}"} will thank you</p>
-      <button>Subscribe & Save</button>
+      <Button style={{width: '150px', height: '35px'}} text="Subscribe & Save" /> 
 
     </section>
   );

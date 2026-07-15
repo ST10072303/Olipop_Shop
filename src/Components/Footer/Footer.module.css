@@ -1,5 +1,5 @@
 .footer {
-    background: white;
+    background: #f1f1f1fd;
     padding: 70px 6%;
 }
 /*grid coloums*/
@@ -24,13 +24,13 @@
 }
 /*input styling*/
 input {
-    width: 93%;
+    width: 222px;
     margin: 20px 0;
     padding: 12px;
     border-radius: 30px;
-    border: 1px solid #ccc;
+    border: 2px solid #17382b;
 }
-/*button styling*/
+/*button styling
 .button {
     width: 100%;
     background: #17382b;
@@ -39,7 +39,7 @@ input {
     border: none;
     border-radius: 40px;
     cursor: pointer;
-}
+}*/
 /*heading color and size*/
 h4 {
     margin-bottom: 20px;

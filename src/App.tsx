@@ -4,7 +4,7 @@ import { Hero } from "./Components/Hero/Hero";
 import { Ingredients } from "./Components/Ingredients/Ingredients";
 //import { ProductSection } from "./Components/ProductSection/ProductSection";
 import { Subscribe } from "./Components/Subscribe/Subscribe";
-//import { Benefits } from "./Components/Benefits/Benefits";
+import { Benefits } from "./Components/Benefits/Benefits";
 import { Footer } from "./Components/Footer/Footer";
 
 
@@ -16,7 +16,7 @@ function App() {
         <Hero />
         <Ingredients />
         {/*<ProductSection />*/}
-        {/*<Benefits />*/}
+        <Benefits />
         <Subscribe />
       </main>
       <Footer />

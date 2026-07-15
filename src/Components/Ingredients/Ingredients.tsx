@@ -1,6 +1,6 @@
 import styles from "./Ingredients.module.css";
-
 import flavour from "../../assets/flavour.png";
+import { Button } from "../Button/Button";
 
 export const Ingredients = () => {
   return (
@@ -16,7 +16,7 @@ export const Ingredients = () => {
              OLIPOP, a thoughtfully crafted tonic  that found its taste in wholesome, nourishing <br />
              ingredients instead of spoonfull of sugar.</p>
             
-          <button className={styles.button}>Read More</button>
+          <Button style={{width: '100px', height: '35px'}} text="Read More" /> 
         </div>
       </div>
     </section>

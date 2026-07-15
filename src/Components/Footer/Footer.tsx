@@ -5,6 +5,7 @@ import twitter from "../../assets/twitter.png";
 import instagram from "../../assets/instagram.png";
 import linkedin from "../../assets/linkedin.png";
 import pinterest from "../../assets/pinterest.png";
+import { Button } from "../Button/Button";
 
 
 export const Footer = () => {
@@ -17,7 +18,7 @@ export const Footer = () => {
       <h3>Stay Connected With <br/>OLIPOP</h3>
       </div>
       <input type="email" placeholder="Enter your email"/>
-      <button className={styles.button}>Subscribe</button>
+     <Button style={{width: '250px', height: '38px'}} text="Subscribe" /> 
     </div>
 
     {/* Flavours Column */}
