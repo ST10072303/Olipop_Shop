@@ -1,9 +1,9 @@
 import styles from "./Benefits.module.css";
-import promo from "../../assets/promo.png";
-import cup from "../../assets/cup.png";
-import dollar from "../../assets/dollar.png";
-import truck from "../../assets/truck.png";
-import cross from "../../assets/cross.png";
+import promo from "@/assets/promo.png";
+import cup from "@/assets/cup.png";
+import dollar from "@/assets/dollar.png";
+import truck from "@/assets/truck.png";
+import cross from "@/assets/cross.png";
 
 export const Benefits = () => {
   return (

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import styles from "./Navbar.module.css";
-import logo from "../../assets/logo.png";
+import logo from "@/assets/logo.png";
 import { Button } from "../Button/Button";
 
 export const Navbar = () => {

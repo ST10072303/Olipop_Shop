@@ -1,5 +1,5 @@
 import styles from "./Hero.module.css";
-import heroCan from "../../assets/hero-can.png";
+import heroCan from "@/assets/hero-can.png";
 import { Button } from "../Button/Button";
 
 export const Hero = () => {
