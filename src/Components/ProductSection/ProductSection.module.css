@@ -10,14 +10,14 @@
     font-size:50px;
     color:#17382B;
 }
-/*paragraph styles*/
+/*p styles*/
 .products p{
     margin-top: 0;
     margin-bottom: 50px;
     font-size:20px;
     color:#17382B;
 }
-/*grid styling*/
+/*grid display styling*/
 .grid{
     max-width:1200px;
     margin:auto;

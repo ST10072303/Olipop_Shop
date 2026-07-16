@@ -1,5 +1,5 @@
 import styles from "./Ingredients.module.css";
-import flavour from "../../assets/flavour.png";
+import flavour from "@/assets/flavour.png";
 import { Button } from "../Button/Button";
 
 export const Ingredients = () => {

@@ -1,33 +1,6 @@
-/*define fonts
-
-    @font-face {
-    font-family: 'WindsorEF-UltraHeavy';
-    font-style: normal;
-    font-weight: normal;
-    src: local('WindsorEF-UltraHeavy'), url('/src/assets/fonts/windsoref/windsoref-extraboldcondensed.woff') format('woff');
-    }
-    
-
-    @font-face {
-    font-family: 'WindsorEF-ExtraBoldCondensed';
-    font-style: normal;
-    font-weight: normal;
-    src: local('WindsorEF-ExtraBoldCondensed'), url('/src/assets/fonts/windsoref/windsoref-extraboldcondensed.woff') format('woff');
-    }
-
-    @font-face {
-    font-family: 'WindsorEF-ExtraBoldCondensed';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Ano-Regular'), url('/src/assets/fonts/Ano-Regular/Ano-Regular.otf');
-    }*/
-    @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+/*define fonts*/
+   
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
 
 
-    /*p{
-        font-family: 'Ano-Regular';
-    }*/
-
-   /* h1{
-        
-    }*/
+ 

@@ -1,6 +1,6 @@
 import styles from "./SodaItem.module.css";
 
-// receive soda items as props
+// soda items as props
 interface SodaItemProps{
     image:string;
     title:string;
