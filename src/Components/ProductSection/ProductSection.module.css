@@ -22,6 +22,6 @@
     max-width:1200px;
     margin:auto;
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(230px,1fr));/*grid column size*/
+    grid-template-columns:repeat(auto-fit,minmax(230px,1fr));/*auto fit columns according to screen size*/
     gap:25px;
 }
