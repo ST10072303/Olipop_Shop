@@ -1,75 +1,66 @@
-# React + TypeScript + Vite
+# OLIPOP E-Commerce Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive e-commerce landing page clone for **OLIPOP**—a functional soda brand. Built with **React**, **TypeScript**, and **CSS Modules**, this project showcases clean component design, dynamic product rendering, and custom CSS styling.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**Responsive Navbar:**
+**Hero Section:**
+**Dynamic Product Showcase:** 
+**Foundational Ingredients:** 
+**Subscription:**
+**Footer:** 
 
-## React Compiler
+## UI Preview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+![UI Preview](./preview1.PNG)
+![UI Preview](./preview2.PNG)
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Tech Stack
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+**Framework:** [React ]
+**Language:** [TypeScript]
+**Build Tool:** [Vite]
+ **Styling:** CSS Modules 
+ **Typography:** Google Fonts 
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## Project Structure
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+src/
+├── assets/
+├── Components/
+│   ├── Benefits/
+│   ├── Button/ 
+│   ├── Footer/ 
+│   ├── Hero/   
+│   ├── Ingredients/
+│   ├── Navbar/     
+│   ├── ProductSection/
+│   ├── SodaItem/      
+│   └── Subscribe/     
+├── data/
+│   └── products.ts    
+├── App.tsx            
+├── main.tsx 
+└── index.css
 
-```
+### Installation
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+1. **Clone the repository:**
+git clone https://github.com/your-username/olipop-landing-page.git
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+2. **Install dependencies:**
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+npm install
 
-```
+3. **Start the development server:**
+
+npm run dev
+
+4. Open your browser and navigate to `http://localhost:5173` (or the URL output in your terminal).
+
+## Scripts
+
+`npm run dev`: Start the local Vite dev server.
+`npm run build`: Compile TypeScript and build production-ready assets.
