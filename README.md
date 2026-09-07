@@ -15,7 +15,7 @@ A modern, responsive e-commerce landing page clone for **OLIPOP**—a functional
 
 ![UI Preview](./preview1.png)
 ![UI Preview](./preview2.png)
-![UI preview](./preview1.png)
+
 
 ## Tech Stack
 
