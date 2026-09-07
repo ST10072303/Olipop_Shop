@@ -13,17 +13,17 @@ A modern, responsive e-commerce landing page clone for **OLIPOP**—a functional
 
 ## UI Preview
 
-![UI Preview](./preview1.PNG)
-![UI Preview](./preview2.PNG)
+![UI Preview](./preview1.png)
+![UI Preview](./preview2.png)
 
 
 ## Tech Stack
 
-**Framework:** [React ]
-**Language:** [TypeScript]
-**Build Tool:** [Vite]
- **Styling:** CSS Modules 
- **Typography:** Google Fonts 
+**Framework:** React
+**Language:** TypeScript
+**Build Tool:** Vite
+**Styling:** CSS Modules 
+**Typography:** Google Fonts 
 
 ## Project Structure
 
@@ -64,3 +64,6 @@ npm run dev
 
 `npm run dev`: Start the local Vite dev server.
 `npm run build`: Compile TypeScript and build production-ready assets.
+
+## Author
+- Malesela Phineas Ngoasheng
